@@ -1,0 +1,43 @@
+ body{
+    font-family: 'poppins';
+    margin: 0;
+    padding: 0;
+ }
+
+.nava{
+    display: flex;
+    justify-content: space-between;
+    background-color: #242323;
+    color: #ffff;
+    padding: 0 1rem;
+ }
+
+.logo a{
+    color: #f0ac45;
+    text-decoration: none;
+ }
+
+.nava span{
+    color: #ffff;
+}
+
+.nava ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.nava ul li{
+    margin: 0 10px;
+    padding: 0 10px;
+}
+
+.nava ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    transition: all ease .4s;
+}
+
+.nava ul li a:hover{
+    color: #f0ac45;
+}
